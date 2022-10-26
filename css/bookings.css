@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2EFDE;
+    margin: 0;
+}
+
+.top-header {
+    background-color: #F2EFDE;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid#5F8661; */
+}
+
+h1 {
+    color: #5F8661;
+    margin-left: 15px;
+    font-family: 'Luckiest Guy'; 
+    font-size: 30px;
+    margin-top: 22px;
+}
+
+.burger {
+    width: 40px; 
+    margin-right: 20px;
+    margin-top: 12px;
+    filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
+
+.pizza-logo-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    /* border: 2px solid#5F8661; */
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 2px solid#5F8661; */
+    list-style: none;
+    font-family: 'Luckiest Guy'; 
+    font-size: 20px;
+    color: #5F8661;
+    padding-bottom: 10px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px -4px #707070;
+}
+
+.nav-bar ul nth-child li {
+    color: #E74423;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    border: 5px double #E74423;
+    padding-top: 40px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin: 50px;
+    background-color: #5F8661;
+    font-family: 'Lusitana';font-size: 19px;
+    margin-bottom: 150px;
+}
+
+.main-section p {
+   color: #323232;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid#5F8661; */
+    height: 88px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 28px;
+    background-color: #F2EFDE;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
+
+.ph-number {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lusitana';font-size: 19px;
+    color: #323232;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.email-address {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lusitana';font-size: 19px;
+    color: #323232;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+hr {
+    height: 1px;
+    width: 300px;
+    background-color: #323232;
+    border: none;
+    margin: auto;
+}
+
+.nav-bar ul :hover {
+    color: #E74423;
+    text-decoration: underline;
+}
+
+.top-header :hover {
+    color: #E74423;
+}
+
+#bookings-color {
+    color: #E74423;
+    text-decoration: underline;
+}
+
+.everything {
+    margin: 20px 0;
+    outline: #707070 !important;
+  }
+  
+.everything.inlined {
+    width: 50%;
+    display: inline-block;
+    outline: #707070 !important;
+  }
+  
+label {
+    display: block;
+    font-family: 'Lusitana'; 
+    padding-bottom: 10px;
+    font-size: 1em;
+    color: #323232;
+  }
+  
+input, select, textarea {
+    color: #323232;
+    border-radius: 4px;
+    border: 2px solid #E74423;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Lusitana';
+    width: 100%;
+    padding: 10px;
+    background-color: #F2EFDE;
+    outline-color: #323232;
+    height: 35px;
+  }
+  
+.everything.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+textarea {
+    height: 200px;
+  }
+  
+button {
+    height: 50px;
+    background: #E74423;
+    border: none;
+    color: #F2EFDE;
+    font-size: 1em;
+    font-family: 'Lusitana';
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  button:hover {
+    border: 4px solid #323232;
+  }
+
+  #resize-date-box {
+    width: 170px;
+  }
