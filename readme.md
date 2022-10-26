@@ -234,8 +234,10 @@ hr {
 
 Wireframe done in Figma: [Figma Wireframe](https://www.figma.com/file/d16rqcQgflkYktX3vytpci/pizza-shop-project?node-id=0%3A1)
 
-![Wireframe Screenshot](images/wireframescreenshot.png)
-![Browser Screenshot](images/mobileviewbrowserscreenshot.png)
+![Mobile Wireframe Screenshot](images/wireframescreenshot.png)
+![Mobile Browser Screenshot](images/mobileviewbrowserscreenshot.png)
+![Desktop Wireframe Screenshot](/images/wireframescreenshotdesktopview.png)
+
 
 
 ## References 
