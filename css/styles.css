@@ -22,7 +22,7 @@ h1 {
     margin-left: 15px;
     font-family: 'Luckiest Guy'; 
     font-size: 30px;
-    margin-top: 22px; 
+    margin-top: 22px;
 }
 
 .burger {
@@ -62,7 +62,6 @@ h1 {
     padding-left: 43px;
     padding-right: 43px;
     font-family: 'Lusitana';font-size: 15px; 
-
 }
 
 .main-section p {
@@ -133,7 +132,6 @@ hr {
     cursor: pointer;
 }
 
-
 .footer img :hover {
     color: #E74423;
 }
@@ -141,9 +139,6 @@ hr {
 #top-hr {
     margin-bottom: 30px;
 }
-
-
-
 
 /* MOBILE VIEW */
 
@@ -153,15 +148,14 @@ hr {
         display: none;
 }
 
-.desktop-pizza-logo-section {
-    display: none;
+    .desktop-pizza-logo-section {
+        display: none;
 }
 
-.desktop-main-section {
-    display: none;
+    .desktop-main-section {
+        display: none;
 }
 }
-
 
 /* DESKTOP VIEW */
 
@@ -188,7 +182,7 @@ hr {
     }
 
     .top-header a :hover {
-       text-decoration: underline;
+        text-decoration: underline;
     }
 
     h1 {
@@ -196,6 +190,9 @@ hr {
         font-family: 'Luckiest Guy'; 
         font-size: 60px;
         margin-top: 50px; 
+        text-align: center;
+        /* border: 2px solid#5F8661; */
+        padding-right: 35px;
     }
 
     #johnny-header-decoration:hover {
@@ -223,7 +220,6 @@ hr {
         display: none;
     }
 
-
     .desktop-main-section {
         display: flex;
         display: block;
@@ -235,7 +231,6 @@ hr {
         font-style: italic;
         font-size: x-large;
         color: #5F8661;
-        
     }
 
     .main-section {
@@ -247,22 +242,19 @@ hr {
         width: 30px;
         height: 30px;
         filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
-
+        margin-right: 10px;
     }
-   
-        
+    
     .desktop-pizza-logo-section {
         display: flex;
         justify-content: center;
         padding-top: 70px;
-    /* border: 2px solid#5F8661; */
-
+        /* border: 2px solid#5F8661; */
     }
 
     .desktop-pizza-logo-section img {
         width: 550px;
         /* border: 2px solid#5F8661; */
-
     }
 
     .ph-number {
@@ -281,5 +273,4 @@ hr {
         0% { opacity: 0; }
         100% { opacity: 1; }
       }
-
 }

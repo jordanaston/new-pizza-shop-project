@@ -53,8 +53,6 @@ h1 {
     box-shadow: 0 8px 8px -4px #707070;
 }
 
-
-
 .main-section {
     display: flex;
     justify-content: center;
@@ -144,12 +142,12 @@ hr {
     width: 100%
   }
 
-  #top-hr{
+#top-hr{
     margin-top: 0px;
     margin-bottom: 20px;
   }
-
-    /* MOBILE VIEW */
+  
+  /* MOBILE VIEW */
 
 @media screen and (max-width: 933px ) { 
 
@@ -163,7 +161,6 @@ hr {
     .pizza-logo-section-desktop {
         display: none;
     }
-
 }
 
 /* DESKTOP VIEW */
@@ -197,7 +194,7 @@ hr {
         color: #5F8661;
         font-family: 'Luckiest Guy'; 
         font-size: 60px;
-        
+        padding-right: 26px;
     }
 
     .main-section {
@@ -217,13 +214,11 @@ hr {
         margin-top: 100px;
         font-family: 'Lusitana';font-size: 19px; font-style: italic;
         color:#323232
-    
     }
 
     .pizza-logo-section {
         display: none;
     }
-
 
     .burger {
         display: none; 
@@ -241,7 +236,8 @@ hr {
         display: none;
     }
     
-    /* Icons */
+  /* Icons */
+
     .top-header img {
         width: 30px;
         height: 30px;
@@ -251,7 +247,6 @@ hr {
     .highlight-about {
         color: #E74423;
         text-decoration: underline;
-
     }
 
     #johnny-header-decoration:hover {
@@ -266,5 +261,4 @@ hr {
     .pizza-logo-section-desktop img {
         width: 150px;
     }
-
 }

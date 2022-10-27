@@ -57,7 +57,6 @@ h1 {
     color: #E74423;
 }
 
-
 .main-section {
     text-align: center;
     /* border: 2px solid#5F8661; */
@@ -142,13 +141,13 @@ hr {
     position: fixed;
     top: 0;
     width: 100%
-  }
+}
 
   #top-hr {
     margin-bottom: 30px;
     margin-top: 12px;
 
-  }
+}
 
   /* MOBILE VIEW */
 
@@ -160,11 +159,9 @@ hr {
     .main-section-desktop {
         display: none;
     }
-
-
 }
 
-/* DESKTOP VIEW */
+  /* DESKTOP VIEW */
 
 @media screen and (min-width: 933px ) { 
 
@@ -195,7 +192,7 @@ hr {
         color: #5F8661;
         font-family: 'Luckiest Guy'; 
         font-size: 60px;
-        
+        padding-right: 26px; 
     }
 
     .main-section {
@@ -223,7 +220,6 @@ hr {
         display: none;
     }
 
-
     .burger {
         display: none; 
     }
@@ -240,7 +236,7 @@ hr {
         display: none;
     }
     
-    /* Icons */
+  /* Icons */
     .top-header img {
         width: 30px;
         height: 30px;
@@ -256,6 +252,4 @@ hr {
     #johnny-header-decoration:hover {
         text-decoration: none !important;
     }
-
-
 }

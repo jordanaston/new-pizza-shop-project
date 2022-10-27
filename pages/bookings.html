@@ -16,22 +16,18 @@
 
     <header>
       <div class="top-header">
-
-        <!--Desktop View Links Left-->
+        <!--Desktop View Nav Links Left-->
         <a href="../pages/about.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>About</li></a>
         <a href="../pages/menu.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>Menu</li></a>
         <a href="../pages/contact.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>Contact</li></a>
-        <!--Desktop View Links Left-->
 
         <a href="../index.html" style="color: #5F8661; text-decoration: none;"><h1 id="johnny-header-decoration">Johnny Boy's</h1></a>
         <img src="../images/burger icon.svg.png" alt="burger icon" class="burger"> 
 
-        <!--Desktop View Links Right-->
+        <!--Desktop View Nav Links Right-->
         <a href="https://www.facebook.com" target="_blank" class="hide-from-mobile"><img src="../images/facebook icon.png" alt="facebook icon"></a>
         <a href="https://www.instagram.com" target="_blank" class="hide-from-mobile"><img src="../images/instagram icon.png" alt="instagram icon"></a>
         <a href="../pages/bookings.html" style="color: #5F8661; text-decoration: none;" class="hide-from-mobile"><li class="highlight-reservations">Reservations</li></a>
-        <!--Desktop View Links Right-->
-
       </div>
         
       <div class="pizza-logo-section">
@@ -50,36 +46,36 @@
 
     <main-section>
       <div class="main-section">
-        <form action="#" method="post">
-          <div class="everything">
+        <form action="/action_page.php" method="get">
+          <div class="form-input-box">
             <label for="name">Name</label>
             <input type="text" id="name" name="visitor_name" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="email">E-mail</label>
             <input type="email" id="email" name="visitor_email" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="phone">Phone</label>
             <input type="tel" id="phone" name="visitor_phone" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="adult">Adults</label>
             <input type="number" id="adult" name="total_adults" min="1" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="child">Children</label>
             <input type="number" id="child" name="total_children" min="0" required>
           </div>
-          <div class="everything inlined" id="resize-date-box">
+          <div class="form-input-box inlined" id="resize-date-box">
             <label for="date">Date</label>
             <input type="date" id="date" name="date" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="time">Time</label>
             <input type="time" id="Time" name="Time" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="message">Allergies?</label>
             <textarea id="message" name="visitor_message" placeholder="Tell us about your allergies and we will make sure we are prepared." required></textarea>
           </div>
@@ -87,46 +83,44 @@
         </form>
       </div> 
 
-      <!--Desktop View Form-->
+      <!--Form In Desktop View-->
       <div class="main-section-desktop">
-        <form action="#" method="post">
-          <div class="everything">
+        <form action="/action_page.php" method="get">
+          <div class="form-input-box">
             <label for="name">Name</label>
             <input type="text" id="name" name="visitor_name" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="email">E-mail</label>
             <input type="email" id="email" name="visitor_email" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="phone">Phone</label>
             <input type="tel" id="phone" name="visitor_phone" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="adult">Adults</label>
             <input type="number" id="adult" name="total_adults" min="1" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="child">Children</label>
             <input type="number" id="child" name="total_children" min="0" required>
           </div>
-          <div class="everything inlined" id="resize-date-box">
+          <div class="form-input-box inlined" id="resize-date-box">
             <label for="date">Date</label>
             <input type="date" id="date" name="date" required>
           </div>
-          <div class="everything inlined">
+          <div class="form-input-box inlined">
             <label for="time">Time</label>
             <input type="time" id="Time" name="Time" required>
           </div>
-          <div class="everything">
+          <div class="form-input-box">
             <label for="message">Allergies?</label>
             <textarea id="message" name="visitor_message" placeholder="Tell us about your allergies and we will make sure we are prepared." required></textarea>
           </div>
             <button type="submit">Book Reservation</button>
         </form>
       </div> 
-      <!--Desktop View Form-->
-       
     </main-section>
       
     </body>

@@ -57,7 +57,6 @@ h1 {
     color: #E74423;
 }
 
-
 .main-section {
     display: flex;
     justify-content: center;
@@ -143,16 +142,16 @@ hr {
     text-decoration: underline;
 }
 
-.everything {
+.form-input-box {
     margin: 20px 0;
     outline: #707070 !important;
-  }
+}
   
-.everything.inlined {
+.form-input-box.inlined {
     width: 50%;
     display: inline-block;
     outline: #707070 !important;
-  }
+}
   
 label {
     display: block;
@@ -160,7 +159,7 @@ label {
     padding-bottom: 10px;
     font-size: 1em;
     color: #323232;
-  }
+}
   
 input, select, textarea {
     color: #323232;
@@ -174,16 +173,16 @@ input, select, textarea {
     background-color: #F2EFDE;
     outline-color: #323232;
     height: 35px;
-  }
+}
   
 .everything.inlined input {
     width: 95%;
     display: inline-block;
-  }
+}
   
 textarea {
     height: 200px;
-  }
+}
   
 button {
     height: 50px;
@@ -197,15 +196,15 @@ button {
     margin-bottom: 30px;
     padding-right: 10px;
     padding-left: 10px;
-  }
+}
   
-  button:hover {
+button:hover {
     border: 4px solid #323232;
-  }
+}
 
-  #resize-date-box {
+#resize-date-box {
     width: 170px;
-  }
+}
 
 /* MOBILE VIEW */
 
@@ -217,7 +216,6 @@ button {
     .main-section-desktop {
         display: none;
     }
-
 }
 
 /* DESKTOP VIEW */
@@ -251,7 +249,7 @@ button {
         color: #5F8661;
         font-family: 'Luckiest Guy'; 
         font-size: 60px;
-        
+        padding-right: 26px;
     }
 
     .main-section {
@@ -275,13 +273,11 @@ button {
         background-color: #5F8661;
         font-family: 'Lusitana';font-size: 19px;
         margin-bottom: 150px;
-
     }
 
     .pizza-logo-section {
         display: none;
     }
-
 
     .burger {
         display: none; 
@@ -309,11 +305,9 @@ button {
     .highlight-reservations {
         color: #E74423;
         text-decoration: underline;
-
     }
 
     #johnny-header-decoration:hover {
         text-decoration: none !important;
     }
-
 }
