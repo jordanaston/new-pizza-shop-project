@@ -17,8 +17,20 @@
     <header>
       <div class="top-header">
 
-        <a href="../index.html" style="color: #5F8661; text-decoration: none;"><h1>Johnny Boy's</h1></a>
+        <!--Desktop View Links Left-->
+        <a href="../pages/about.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>About</li></a>
+        <a href="../pages/menu.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>Menu</li></a>
+        <a href="../pages/contact.html" class="hide-from-mobile" style="color: #5F8661; text-decoration: none;"><li>Contact</li></a>
+        <!--Desktop View Links Left-->
+
+        <a href="../index.html" style="color: #5F8661; text-decoration: none;"><h1 id="johnny-header-decoration">Johnny Boy's</h1></a>
         <img src="../images/burger icon.svg.png" alt="burger icon" class="burger"> 
+
+        <!--Desktop View Links Right-->
+        <a href="https://www.facebook.com" target="_blank" class="hide-from-mobile"><img src="../images/facebook icon.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com" target="_blank" class="hide-from-mobile"><img src="../images/instagram icon.png" alt="instagram icon"></a>
+        <a href="../pages/bookings.html" style="color: #5F8661; text-decoration: none;" class="hide-from-mobile"><li class="highlight-reservations">Reservations</li></a>
+        <!--Desktop View Links Right-->
 
       </div>
         
@@ -73,7 +85,48 @@
           </div>
             <button type="submit">Book Reservation</button>
         </form>
-      </div>  
+      </div> 
+
+      <!--Desktop View Form-->
+      <div class="main-section-desktop">
+        <form action="#" method="post">
+          <div class="everything">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="visitor_name" required>
+          </div>
+          <div class="everything">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="visitor_email" required>
+          </div>
+          <div class="everything">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="visitor_phone" required>
+          </div>
+          <div class="everything inlined">
+            <label for="adult">Adults</label>
+            <input type="number" id="adult" name="total_adults" min="1" required>
+          </div>
+          <div class="everything inlined">
+            <label for="child">Children</label>
+            <input type="number" id="child" name="total_children" min="0" required>
+          </div>
+          <div class="everything inlined" id="resize-date-box">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="everything inlined">
+            <label for="time">Time</label>
+            <input type="time" id="Time" name="Time" required>
+          </div>
+          <div class="everything">
+            <label for="message">Allergies?</label>
+            <textarea id="message" name="visitor_message" placeholder="Tell us about your allergies and we will make sure we are prepared." required></textarea>
+          </div>
+            <button type="submit">Book Reservation</button>
+        </form>
+      </div> 
+      <!--Desktop View Form-->
+       
     </main-section>
       
     </body>

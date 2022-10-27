@@ -149,3 +149,113 @@ hr {
     margin-top: 12px;
 
   }
+
+  /* MOBILE VIEW */
+
+@media screen and (max-width: 933px ) { 
+
+    .hide-from-mobile {
+        display: none;
+}
+    .main-section-desktop {
+        display: none;
+    }
+
+
+}
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 933px ) { 
+
+    .top-header {
+        background-color: #F2EFDE;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        /* border: 2px solid#5F8661; */
+        list-style: none;
+        padding-bottom: 30px;
+        box-shadow: 0 8px 8px -4px #707070;
+    }
+
+    .top-header a {
+        margin-top: 45px;
+        font-family: 'Luckiest Guy'; 
+        font-size: 20px;
+    }
+
+    .top-header a :hover {
+       text-decoration: underline;
+    }
+
+    h1 {
+        color: #5F8661;
+        font-family: 'Luckiest Guy'; 
+        font-size: 60px;
+        
+    }
+
+    .main-section {
+        display: none;
+    }
+
+    .main-section-desktop {
+        align-items: center;
+        text-align: center;
+        border: 5px double #E74423;
+        padding-top: 40px;
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-bottom: 50px;
+        margin: 50px;
+        margin-right: 400px;
+        margin-left: 400px;
+        margin-top: 100px;
+        background-color: #5F8661;
+        font-family: 'Lusitana';font-size: 19px;
+        color: #F2EFDE;
+    }
+
+    .pizza-logo-section {
+        display: none;
+    }
+
+
+    .burger {
+        display: none; 
+    }
+
+    .nav-bar {
+        display: none;
+    }
+   
+    .footer {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+    
+    /* Icons */
+    .top-header img {
+        width: 30px;
+        height: 30px;
+        filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+    }
+
+    .highlight-menu {
+        color: #E74423;
+        text-decoration: underline;
+
+    }
+
+    #johnny-header-decoration:hover {
+        text-decoration: none !important;
+    }
+
+
+}

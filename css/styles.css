@@ -198,6 +198,10 @@ hr {
         margin-top: 50px; 
     }
 
+    #johnny-header-decoration:hover {
+        text-decoration: none !important;
+    }
+
     .pizza-logo-section {
         display: none;
     }
