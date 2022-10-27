@@ -273,5 +273,13 @@ hr {
         display: none;
     }
 
+    #fade-in-image { 
+        animation: fadein 3s; 
+    }
+
+    @keyframes fadein {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
 
 }

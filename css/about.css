@@ -207,10 +207,10 @@ hr {
     .main-section-desktop {
         align-items: center;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-left: 43px;
         padding-right: 43px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         margin: 50px;
         margin-right: 400px;
         margin-left: 400px;
