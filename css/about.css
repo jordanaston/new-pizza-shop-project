@@ -163,7 +163,7 @@ hr {
     }
 }
 
-/* DESKTOP VIEW */
+  /* DESKTOP VIEW */
 
 @media screen and (min-width: 933px ) { 
 
@@ -237,7 +237,6 @@ hr {
     }
     
   /* Icons */
-
     .top-header img {
         width: 30px;
         height: 30px;
