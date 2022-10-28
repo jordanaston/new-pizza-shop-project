@@ -246,7 +246,7 @@ h1 {
     /* border: 2px solid#5F8661; */
     padding-right: 35px;
   }
-  #johnny-header-decoration:hover {
+  .johnny-header-decoration:hover {
     text-decoration: none !important;
   }
   .pizza-logo-section {
@@ -319,8 +319,5 @@ h1 {
   .highlight-menu {
     color: #E74423;
     text-decoration: underline;
-  }
-  #johnny-header-decoration:hover {
-    text-decoration: none !important;
   }
 }/*# sourceMappingURL=main.css.map */
