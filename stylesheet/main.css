@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F2EFDE;
+  margin: 0;
+}
+
+.burger {
+  width: 40px;
+  margin-right: 15px;
+  margin-top: 15px;
+  filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
+
+.pizza-logo-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  /* border: 2px solid#5F8661; */
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  /* border: 2px solid#5F8661; */
+  padding-top: 10px;
+  padding-left: 43px;
+  padding-right: 43px;
+  font-family: "Lusitana";
+  font-size: 15px;
+}
+
+.main-section p {
+  color: #323232;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid#5F8661; */
+  height: 88px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 28px;
+  background-color: #F2EFDE;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+}
+
+.ph-number {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Lusitana";
+  font-size: 19px;
+  color: #323232;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.email-address {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Lusitana";
+  font-size: 19px;
+  color: #323232;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+hr {
+  height: 1px;
+  width: 300px;
+  background-color: #323232;
+  border: none;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.footer img :hover {
+  color: #E74423;
+}
+
+#top-hr {
+  margin-bottom: 30px;
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 933px) {
+  .top-header a {
+    display: none;
+  }
+  .desktop-pizza-logo-section {
+    display: none;
+  }
+  .desktop-main-section {
+    display: none;
+  }
+}
+/* DESKTOP VIEW */
+@media screen and (min-width: 933px) {
+  .footer {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .desktop-main-section {
+    display: flex;
+    display: block;
+    justify-content: center;
+    /* border: 2px solid#5F8661; */
+    margin-bottom: 80px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    color: #5F8661;
+  }
+  .main-section {
+    display: none;
+  }
+  .desktop-pizza-logo-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    /* border: 2px solid#5F8661; */
+  }
+  .desktop-pizza-logo-section img {
+    width: 550px;
+    /* border: 2px solid#5F8661; */
+  }
+  .ph-number {
+    display: none;
+  }
+  .email-address {
+    display: none;
+  }
+  #fade-in-image {
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
+  }
+  @-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  /* border: 2px solid#5F8661; */
+  list-style: none;
+  font-family: "Luckiest Guy";
+  font-size: 20px;
+  color: #5F8661;
+  padding-bottom: 10px;
+  text-decoration: none;
+  box-shadow: 0 8px 8px -4px #707070;
+}
+
+.top-header {
+  background-color: #F2EFDE;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid#5F8661; */
+}
+
+h1 {
+  color: #5F8661;
+  margin-left: 15px;
+  font-family: "Luckiest Guy";
+  font-size: 30px;
+  margin-top: 22px;
+}
+
+.nav-bar ul :hover {
+  color: #E74423;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.top-header :hover {
+  color: #E74423;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 933px) {
+  .top-header {
+    background-color: #F2EFDE;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid#5F8661; */
+    list-style: none;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0 8px 8px -4px #707070;
+  }
+  .top-header a {
+    margin-top: 45px;
+    font-family: "Luckiest Guy";
+    font-size: 20px;
+  }
+  .top-header a :hover {
+    text-decoration: underline;
+  }
+  h1 {
+    color: #5F8661;
+    font-family: "Luckiest Guy";
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+    /* border: 2px solid#5F8661; */
+    padding-right: 35px;
+  }
+  #johnny-header-decoration:hover {
+    text-decoration: none !important;
+  }
+  .pizza-logo-section {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+  /* Icons */
+  .top-header img {
+    width: 30px;
+    height: 30px;
+    filter: invert(55%) sepia(22%) saturate(571%) hue-rotate(73deg) brightness(84%) contrast(85%);
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
